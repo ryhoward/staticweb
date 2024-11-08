@@ -22,6 +22,7 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }} # Token provided by GitHub Actions
           action: "upload"
           app_location: "/" # Location of your app source code
+          api_location: ""
           output_location: "/" # Location of the built app or root for simple sites
           app_build_command: "" # Skip the build step for basic HTML site
 
